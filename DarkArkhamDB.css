@@ -1,0 +1,204 @@
+/* ==UserStyle==
+@name           ArkhamDB dark
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A style for making arkhamDB dark
+@updateURL      https://raw.githubusercontent.com/Gammro/DarkArkhamDB/master/DarkArkhamDB.user.css
+@author         Gammro
+==/UserStyle== */
+@-moz-document domain("arkhamdb.com") {
+
+    body {
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #9a9a9a;
+        background-color: #131313;
+    }
+
+    /*
+    
+    div[background-color = rgba(255, 255, 255, 0.88)] {
+        background: rgba(0, 0, 0, 1)
+    }
+    
+    element.style {
+        background-color: #232323;
+    }
+    * {
+        background: rgba(0, 0, 0, .88);
+    }
+     
+    .col-md-6>div[background-image]{
+        background-color: rgb(255, 0, 0);
+    }
+    
+    */
+    .container.main.white {
+        background-color: #FFF0;
+    }
+
+    a {
+        color: #FAFAFA;
+        text-decoration: none
+    }
+    .btn-link {
+        color: #FAFAFA;
+        font-weight: normal;
+        border-radius: 0;
+    }
+    .table-striped > tbody > tr:nth-of-type(even) {
+        background-color: #131313;
+    }
+    .table-striped > tbody > tr:nth-of-type(odd) {
+        background-color: #232323;
+    }
+    .spoiler {
+        background-color: #606060;
+        color: #606060 !important;
+    }
+    .qtip-bootstrap {
+        font-size: 14px;
+        line-height: 20px;
+        color: #FAFAFA;
+        padding: 1px;
+        background-color: #131313;
+        border: 1px solid #ccc;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .bg-guardian {
+        background-color: #052D4D !important;
+        color: white !important;
+    }
+    .border-guardian {
+        border-color: #052D4D !important;
+    }
+    .panel-body {
+        background-color: #232323;
+        padding: 15px;
+    }
+    .card-content {
+        color: #F0F0F0;
+    }
+    .form-control {
+        background-color: #232323;
+        color: #9a9a9a;
+        padding: 4px 4px;
+    }
+    .twitter-typeahead {
+        background-color: #232323;
+    }
+    footer {
+        background-color: #152526;
+    }
+    .col-md-6 > div > div > div:not(.media) {
+        background-color: rgba(23, 23, 23, .88) !important;
+    }
+
+    .btn-default {
+        color: #F0F0F0 !important;
+        background-color: #232323 !important;
+        background-image: linear-gradient(#232323, #232323, #232323);
+    }
+
+    #owned_packs .btn.active {
+        color: #ffffff !important;
+        background-color: #194f72 !important;
+        border-color: #0D293C !important;
+    }
+
+    /*pagination*/
+    .pagination > li > a,
+    .pagination > li > span {
+        color: #F0F0F0;
+        background-color: #232323;
+    }
+
+    .pagination-sm > li:first-child > a,
+    .pagination-sm > li:first-child > span {
+        color: #F0F0F0;
+        background-color: #232323;
+    }
+    /*graph colors*/
+    .highcharts-background {
+        fill: #131313;
+    }
+    text.highcharts-title,
+    text.highcharts-subtitle{
+        color: #BEBEBE !important;
+        fill: #BEBEBE !important;
+    }
+    
+    .highcharts-axis-labels>span,
+    .highcharts-axis-labels>text{
+        color: #BEBEBE !important;
+        fill: #BEBEBE !important;
+    }
+
+
+    /*various text colors*/
+    a:hover,
+    a:focus {
+        color: #757486;
+    }
+
+    .social-icon-version {
+        color: #5e5ef7;
+    }
+
+    .text-muted {
+        color: #ADADAD;
+    }
+    /*classes*/
+    .fg-neutral {
+        color: #C0C0C0 !important;
+    }
+
+    .fg-mystic {
+        color: #6B5EBB !important;
+    }
+
+    .bg-guardian {
+        background-color: #2b80c5 !important;
+        color: white !important
+    }
+
+    .bg-survivor {
+        background-color: #cc3038 !important;
+        color: white !important
+    }
+
+    .bg-seeker {
+        background-color: #ff8f3f !important
+    }
+
+    .bg-rogue {
+        background-color: #107116 !important;
+        color: white !important
+    }
+
+    /*skillsymbols*/
+    .color-will,
+    .color-willpower {
+        color: #0071C0
+    }
+
+    .color-lore,
+    .color-intellect {
+        color: #B13A9C
+    }
+
+    .color-strength,
+    .color-combat {
+        color: #A2300F
+    }
+
+    .color-agility {
+        color: #107116
+    }
+
+    .color-wild {
+        color: #A08233
+    }
+}
+@-moz-document url-prefix("https://www.arkhamdb.com") {
+    /* does not currently work*/
+}
