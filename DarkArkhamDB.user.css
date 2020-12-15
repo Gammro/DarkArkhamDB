@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           ArkhamDB dark
 @namespace      github.com/openstyles/stylus
-@version        1.0.0
+@version        1.0.1
 @description    A style for making arkhamDB dark
 @updateURL      https://raw.githubusercontent.com/Gammro/DarkArkhamDB/master/DarkArkhamDB.user.css
 @author         Gammro
@@ -93,16 +93,16 @@
         background-color: rgba(23, 23, 23, .88) !important;
     }
 
+    .btn.active {
+        color: #F0F0F0 !important;
+        background-color: #666666 !important;
+        border-color: #666666 !important;
+    }
+
     .btn-default {
         color: #F0F0F0 !important;
         background-color: #232323 !important;
         background-image: linear-gradient(#232323, #232323, #232323);
-    }
-
-    #owned_packs .btn.active {
-        color: #ffffff !important;
-        background-color: #194f72 !important;
-        border-color: #0D293C !important;
     }
 
     /*pagination*/
@@ -122,13 +122,13 @@
         fill: #131313;
     }
     text.highcharts-title,
-    text.highcharts-subtitle{
+    text.highcharts-subtitle {
         color: #BEBEBE !important;
         fill: #BEBEBE !important;
     }
-    
-    .highcharts-axis-labels>span,
-    .highcharts-axis-labels>text{
+
+    .highcharts-axis-labels > span,
+    .highcharts-axis-labels > text {
         color: #BEBEBE !important;
         fill: #BEBEBE !important;
     }
