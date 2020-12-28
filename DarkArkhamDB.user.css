@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           ArkhamDB dark
 @namespace      github.com/openstyles/stylus
-@version        1.0.1
+@version        1.0.2
 @description    A style for making arkhamDB dark
 @updateURL      https://raw.githubusercontent.com/Gammro/DarkArkhamDB/master/DarkArkhamDB.user.css
 @author         Gammro
@@ -10,6 +10,11 @@
 
     body {
         font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #9a9a9a;
+        background-color: #131313;
+    }
+
+    .modal-content {
         color: #9a9a9a;
         background-color: #131313;
     }
